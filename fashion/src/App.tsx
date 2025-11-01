@@ -74,8 +74,8 @@ function App() {
         <header className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
             <Sparkles className="text-blue-500" size={48} />
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-              AI Fashion Stylist
+            <h1 className="text-5xl font-bold bg-gradient-to-r from-[#8B4513] to-[#5C4033] bg-clip-text text-transparent">
+              AI Fashion Assistant 
             </h1>
           </div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">

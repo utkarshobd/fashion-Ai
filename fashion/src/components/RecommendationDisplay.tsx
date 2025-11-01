@@ -1,5 +1,6 @@
 import { Sparkles, ShoppingBag, Info } from 'lucide-react';
 import { FashionRecommendation } from '../types/fashion';
+import { ColorGradient } from './ColorGradient';
 
 interface RecommendationDisplayProps {
   recommendation: FashionRecommendation;
@@ -8,12 +9,12 @@ interface RecommendationDisplayProps {
 export function RecommendationDisplay({ recommendation }: RecommendationDisplayProps) {
   return (
     <div className="space-y-6">
-      <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6 rounded-xl shadow-lg">
+      <div className="bg-gradient-to-r from-[#800020] to-[#4A0012] text-white p-6 rounded-xl shadow-lg">
         <div className="flex items-center gap-3 mb-3">
-          <Sparkles size={28} />
+          <Sparkles size={28} className="text-[#FFD700]" />
           <h2 className="text-2xl font-bold">Your Style Recommendations</h2>
         </div>
-        <p className="text-blue-100">{recommendation.analysis}</p>
+        <p className="text-[#FFE4E1]">{recommendation.analysis}</p>
       </div>
 
       <div className="grid gap-6">
@@ -21,7 +22,7 @@ export function RecommendationDisplay({ recommendation }: RecommendationDisplayP
           <div key={idx} className="bg-white rounded-xl shadow-md overflow-hidden">
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 px-6 py-4 border-b">
               <h3 className="text-xl font-bold text-gray-800 capitalize flex items-center gap-2">
-                <ShoppingBag size={22} className="text-blue-500" />
+                <ShoppingBag size={22} className="text-[#800020]" />
                 {category.category}
               </h3>
             </div>
@@ -35,10 +36,15 @@ export function RecommendationDisplay({ recommendation }: RecommendationDisplayP
                     <div>
                       <h4 className="font-bold text-lg text-gray-800">{item.name}</h4>
                       <div className="flex gap-3 mt-1">
-                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-700">
-                          {item.color}
-                        </span>
-                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-700">
+                        <div className="flex flex-col gap-2">
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[#FFF0F5] text-[#800020]">
+                            {item.color}
+                          </span>
+                          <div className="w-32">
+                            <ColorGradient color={item.color} />
+                          </div>
+                        </div>
+                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[#F0FFF0] text-[#2E8B57]">
                           {item.style}
                         </span>
                       </div>
