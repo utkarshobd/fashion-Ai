@@ -1,0 +1,64 @@
+classes:
+  ethnic:
+    - kurta
+    - saree
+    - lehenga
+    - blouse_choli
+    - sherwani
+    - suit_salwar
+  western:
+    - shirt
+    - t_shirt
+    - jeans
+    - trouser_chinos
+    - shorts
+    - dress
+    - skirt
+    - jacket
+
+accessories:
+  - belt
+  - watch
+  - bag
+  - sunglasses
+  - jewelry
+  - wallet
+  - footwear
+
+attributes:
+  shared:
+    sleeve_length: [sleeveless, short, quarter, half, three_quarter, full, unknown]
+    fit: [skinny, slim, regular, relaxed, oversized, unknown]
+    length_category: [crop, waist, hip, knee, midi, ankle, floor, unknown]
+    pattern: [solid, striped, checked, floral, embroidered, printed, geometric, plain_with_border, unknown]
+    fabric_hint: [cotton, linen, silk, chiffon, georgette, satin, denim, wool, blended, leather, synthetic, unknown]
+    color_primary: [black, white, blue, navy_blue, red, grey, brown, pink, green, purple, yellow, orange, beige, silver, maroon, gold, unknown]
+    gender: [male, female, unisex]
+    occasion_suitability: [casual, formal, party, wedding, beach, office, festive, athleisure, ethnic, sports]
+    season: [summer, winter, fall, spring, unknown]
+  
+  western_specific:
+    jeans_style: [skinny, slim, straight, tapered, relaxed, mom, wide_leg, bootcut, flared, distressed, cropped, unknown]
+    shirt_type: [formal, casual, denim_shirt, chambray, polo, button_down, unknown]
+    dress_cut: [bodycon, a_line, fit_and_flare, shift, wrap, maxi, midi, mini, shirt_dress, unknown]
+    skirt_type: [pencil, a_line, pleated, maxi, mini, wrap, unknown]
+    jacket_type: [blazer, bomber, denim_jacket, leather_jacket, windbreaker, overcoat, unknown]
+    trouser_style: [formal, chinos, cargo, jogger, tapered, wide_leg, unknown]
+  
+  ethnic_specific:
+    kurta_style: [straight, angrakha, pathani, anarkali, indo_western, short_kurta, unknown]
+    saree_drape_type: [nivi, seedha_pallu, gujarati, bengali, lehenga_style, unknown]
+    lehenga_style: [a_line, circular, mermaid, trail, panel, unknown]
+    embroidery_type: [zari, zari_with_zardozi, gota_patti, mirror_work, resham, sequins, unknown]
+    dupatta_present: [yes, no]
+
+file_naming_convention: "{category}_{source}_{index:05d}.jpg"
+csv_schema:
+  - file_path: "Relative path to image file"
+  - category: "Main class (kurta, shirt, etc.)"
+  - sub_category: "ethnic/western/accessory"
+  - attributes_json: "JSON string with extracted attributes"
+  - gender: "male/female/unisex"
+  - source: "Data source (myntra, etc.)"
+  - original_id: "Original dataset ID"
+  - product_name: "Original product description"

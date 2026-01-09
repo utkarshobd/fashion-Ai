@@ -1,0 +1,88 @@
+# Models and weights - NEVER COMMIT
+*.pth
+*.h5
+*.pkl
+*.onnx
+*.tflite
+models/trained/
+checkpoints/
+weights/
+*.model
+
+# Large datasets - NEVER COMMIT
+images_original/
+images_resized512/
+accessories_original/
+accessories_resized512/
+data/full_dataset/
+data/scraped/
+dataset/
+*.zip
+*.tar.gz
+*.rar
+
+# CSV files with full data - NEVER COMMIT
+annotations/labels.csv
+annotations/accessories_labels.csv
+*.csv
+
+# Credentials and secrets - NEVER COMMIT
+.env
+.env.local
+.env.production
+config/production/
+secrets/
+*.key
+*.pem
+api_keys.txt
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
