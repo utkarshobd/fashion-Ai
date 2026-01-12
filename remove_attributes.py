@@ -19,7 +19,7 @@ def remove_attributes_from_blouse_choli(input_file, output_file):
         writer.writerow(header)
         
         for row in reader:
-            if len(row) >= 3 and row[1] == 'blouse_choli':  # Check if it's a blouse_choli entry
+            if len(row) >= 3 and row[1] == 'lehengas':  # Check if it's a lehengas entry
                 try:
                     # Parse the JSON attributes
                     attributes_json = row[2]
