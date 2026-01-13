@@ -13,12 +13,12 @@ def extract_color_from_name(product_name):
         'green': ['green', 'olive', 'emerald', 'mint', 'lime', 'forest', 'sage', 'bottle green', 'sea green', 'pista', 'mehendi', 'moss'],
         'yellow': ['yellow', 'gold', 'golden', 'mustard', 'ochre', 'amber', 'cream', 'beige', 'champagne', 'marigold'],
         'pink': ['pink', 'rose', 'blush', 'coral', 'salmon', 'peach', 'magenta', 'fuchsia', 'hot pink', 'rani pink', 'flamingo'],
-        'purple': ['purple', 'violet', 'lavender', 'lilac', 'plum', 'mauve', 'amethyst', 'grape'],
+        'purple': ['purple', 'violet', 'lavender', 'lilac', 'plum', 'mauve', 'amethyst', 'grape','wine'],
         'orange': ['orange', 'tangerine', 'saffron', 'burnt orange', 'mango'],
         'black': ['black', 'charcoal', 'ebony', 'jet', 'midnight'],
         'white': ['white', 'ivory', 'cream', 'off white', 'pearl', 'snow'],
         'grey': ['grey', 'gray', 'silver', 'ash', 'slate', 'steel'],
-        'brown': ['brown', 'tan', 'chocolate', 'coffee', 'caramel', 'bronze', 'mahogany'],
+        'brown': ['brown', 'tan', 'chocolate', 'coffee', 'caramel', 'bronze', 'mahogany','fawn'],
         'multicolor': ['multicolor', 'multi', 'rainbow', 'mixed', 'combination']
     }
     
@@ -125,10 +125,10 @@ def fix_attributes_for_rows(csv_file_path, start_row, end_row):
 
 # Main execution
 if __name__ == "__main__":
-    csv_file = r"c:\Users\utkarshh\Desktop\FAI\FAII\fashion_dataset_transformed\annotations\labels_reorganized_updated_cleaned.csv"
+    csv_file = r"c:\Users\utkarshh\Desktop\FAI\FAII\fashion_dataset_transformed\annotations\labels_fixed_suit_salwar.csv"
     
     # Fix rows 3997 to 4423
-    fixed_file = fix_attributes_for_rows(csv_file, 3997, 4423)
+    fixed_file = fix_attributes_for_rows(csv_file, 24287, 24611)
     
     print("Attribute fixing completed!")
     print(f"Fixed file: {fixed_file}")
