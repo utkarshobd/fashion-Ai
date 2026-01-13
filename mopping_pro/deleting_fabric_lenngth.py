@@ -21,8 +21,8 @@ def clean_attributes(attr_str):
     except Exception:
         return attr_str  # leave unchanged if broken
 
-# Apply ONLY to ethnic / salwar_suit
-mask = (df["category"] == "suit_salwar") & (df["sub_category"] == "ethnic")
+# Apply ONLY to ethnic / kurta
+mask = (df["category"] == "saree") & (df["sub_category"] == "ethnic")
 
 df.loc[mask, "attributes_json"] = df.loc[mask, "attributes_json"].apply(clean_attributes)
 
