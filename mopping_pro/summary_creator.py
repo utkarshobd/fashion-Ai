@@ -9,7 +9,7 @@ df = pd.read_csv(
 )
 
 # Filter lehengas
-lehenga_df = df[df["category"] == "saree"].copy()
+lehenga_df = df[df["category"] == "dress"].copy()
 
 # Ensure attributes_json is string
 lehenga_df["attributes_json"] = lehenga_df["attributes_json"].astype(str)
