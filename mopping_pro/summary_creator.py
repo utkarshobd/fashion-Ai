@@ -3,7 +3,7 @@ import json
 
 # Load CSV (use the correct file)
 df = pd.read_csv(
-    "labels_test_lehenga_color_fixed.csv",
+    "../labels_test_lehenga_color_fixed.csv",
     engine="python",
     on_bad_lines="skip"
 )

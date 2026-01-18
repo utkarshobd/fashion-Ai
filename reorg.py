@@ -13,14 +13,15 @@ def extract_color_from_name(product_name):
         'red': ['red', 'maroon', 'crimson', 'burgundy', 'wine', 'cherry', 'rust', 'brick'],
         'blue': ['blue', 'navy', 'teal', 'turquoise', 'cobalt', 'sapphire', 'indigo', 'royal blue', 'sky blue'],
         'green': ['green', 'olive', 'emerald', 'mint', 'lime', 'forest', 'sage', 'bottle green', 'pista', 'mehendi'],
-        'yellow': ['yellow', 'gold', 'golden', 'mustard', 'ochre'],
-        'pink': ['pink', 'rose', 'blush', 'coral', 'peach', 'magenta', 'rani pink'],
+        'yellow': ['yellow', 'gold', 'golden', 'mustard', 'ochre', 'sunshine'],
+        'pink': ['pink', 'rose', 'blush', 'coral', 'peach', 'magenta', 'rani pink', 'rani'],
         'purple': ['purple', 'violet', 'lavender', 'lilac', 'plum', 'mauve'],
         'orange': ['orange', 'saffron'],
         'black': ['black', 'charcoal', 'ebony'],
-        'white': ['white', 'ivory', 'cream', 'off white'],
+        'white': ['white', 'ivory', 'cream', 'off white', 'pearl'],
         'grey': ['grey', 'gray', 'silver'],
-        'brown': ['brown', 'tan', 'chocolate', 'coffee'],
+        'brown': ['brown', 'tan', 'chocolate', 'coffee', 'fawn'],
+        'beige': ['beige', 'nude', 'champagne'],
         'multicolor': ['multicolor', 'multi color', 'mixed', 'combination']
     }
 
