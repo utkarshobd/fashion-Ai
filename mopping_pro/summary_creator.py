@@ -3,13 +3,13 @@ import json
 
 # Load CSV (use the correct file)
 df = pd.read_csv(
-    "../labels_test_lehenga_color_fixed.csv",
+    "labels_tested.csv",
     engine="python",
     on_bad_lines="skip"
 )
 
 # Filter lehengas
-lehenga_df = df[df["category"] == "lehengas"].copy()
+lehenga_df = df[df["category"] == "saree"].copy()
 
 # Ensure attributes_json is string
 lehenga_df["attributes_json"] = lehenga_df["attributes_json"].astype(str)
