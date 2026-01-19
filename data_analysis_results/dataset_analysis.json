@@ -1,0 +1,78 @@
+{
+  "sub_category": {
+    "unique_values": 2,
+    "distribution": {
+      "western": 23520,
+      "ethnic": 8648
+    },
+    "total_samples": 32168
+  },
+  "category": {
+    "unique_values": 16,
+    "distribution": {
+      "t_shirt": 9030,
+      "shirt": 4409,
+      "jacket": 4361,
+      "saree": 1925,
+      "sherwani": 1620,
+      "dress": 1531,
+      "kurta": 1477,
+      "blouse_choli": 1351,
+      "skirt": 1251,
+      "shorts": 1230,
+      "jeans": 1178,
+      "lehengas": 1169,
+      "suit_salwar": 1101,
+      "trouser_chinos": 530,
+      "lehenga": 4,
+      "suitsalwar": 1
+    },
+    "total_samples": 32168
+  },
+  "color_primary": {
+    "unique_values": 14,
+    "distribution": {
+      "blue": 6453,
+      "black": 4530,
+      "white": 3669,
+      "red": 3562,
+      "green": 2966,
+      "grey": 2359,
+      "pink": 2309,
+      "beige": 1383,
+      "brown": 1309,
+      "yellow": 1189,
+      "purple": 1094,
+      "multicolor": 868,
+      "orange": 308,
+      "unknown": 169
+    },
+    "total_samples": 32168
+  },
+  "pattern": {
+    "unique_values": 5,
+    "distribution": {
+      "solid": 22216,
+      "printed": 4548,
+      "embroidered": 2077,
+      "striped": 1753,
+      "checked": 1574
+    },
+    "total_samples": 32168
+  },
+  "sub_class": {
+    "unique_values": 9,
+    "distribution": {
+      "top": 1996,
+      "jacket": 1314,
+      "blazer": 1014,
+      "sweatshirt": 811,
+      "3-pcs_suit": 535,
+      "overcoat": 401,
+      "sweater": 277,
+      "hoodie": 5,
+      "windbreaker": 4
+    },
+    "total_samples": 32168
+  }
+}

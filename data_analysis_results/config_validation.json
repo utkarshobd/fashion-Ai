@@ -1,0 +1,49 @@
+{
+  "sub_category": {
+    "actual_classes": 2,
+    "config_classes": 2,
+    "missing_in_config": [],
+    "missing_in_data": [],
+    "match": true
+  },
+  "category": {
+    "actual_classes": 16,
+    "config_classes": 16,
+    "missing_in_config": [
+      "trouser_chinos",
+      "lehengas",
+      "suitsalwar",
+      "jeans"
+    ],
+    "missing_in_data": [
+      "dhoti",
+      "co_ord_set",
+      "jumpsuit",
+      "palazzo"
+    ],
+    "match": false
+  },
+  "color_primary": {
+    "actual_classes": 14,
+    "config_classes": 14,
+    "missing_in_config": [],
+    "missing_in_data": [],
+    "match": true
+  },
+  "pattern": {
+    "actual_classes": 5,
+    "config_classes": 5,
+    "missing_in_config": [],
+    "missing_in_data": [],
+    "match": true
+  },
+  "sub_class": {
+    "actual_classes": 9,
+    "config_classes": 10,
+    "missing_in_config": [],
+    "missing_in_data": [
+      "biker"
+    ],
+    "match": false
+  }
+}

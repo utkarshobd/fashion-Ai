@@ -1,0 +1,7 @@
+{
+  "total_samples": 32168,
+  "valid_sub_class": 6357,
+  "training_samples": 6357,
+  "masked_samples": 25811,
+  "masking_percentage": 80.23812484456603
+}

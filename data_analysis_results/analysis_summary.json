@@ -1,0 +1,129 @@
+{
+  "dataset_summary": {
+    "total_samples": 32168,
+    "heads_analyzed": [
+      "sub_category",
+      "category",
+      "color_primary",
+      "pattern",
+      "sub_class"
+    ],
+    "configuration_valid": false,
+    "masking_percentage": 80.23812484456603
+  },
+  "validation_summary": {
+    "sub_category": {
+      "actual_classes": 2,
+      "config_classes": 2,
+      "missing_in_config": [],
+      "missing_in_data": [],
+      "match": true
+    },
+    "category": {
+      "actual_classes": 16,
+      "config_classes": 16,
+      "missing_in_config": [
+        "trouser_chinos",
+        "lehengas",
+        "suitsalwar",
+        "jeans"
+      ],
+      "missing_in_data": [
+        "dhoti",
+        "co_ord_set",
+        "jumpsuit",
+        "palazzo"
+      ],
+      "match": false
+    },
+    "color_primary": {
+      "actual_classes": 14,
+      "config_classes": 14,
+      "missing_in_config": [],
+      "missing_in_data": [],
+      "match": true
+    },
+    "pattern": {
+      "actual_classes": 5,
+      "config_classes": 5,
+      "missing_in_config": [],
+      "missing_in_data": [],
+      "match": true
+    },
+    "sub_class": {
+      "actual_classes": 9,
+      "config_classes": 10,
+      "missing_in_config": [],
+      "missing_in_data": [
+        "biker"
+      ],
+      "match": false
+    }
+  },
+  "masking_summary": {
+    "total_samples": 32168,
+    "valid_sub_class": 6357,
+    "training_samples": 6357,
+    "masked_samples": 25811,
+    "masking_percentage": 80.23812484456603
+  },
+  "weight_recommendations": {
+    "sub_category": {
+      "western": 0.683843537414966,
+      "ethnic": 1.8598519888991674
+    },
+    "category": {
+      "t_shirt": 0.2226467331118494,
+      "shirt": 0.4559990927647992,
+      "jacket": 0.461018115111213,
+      "dress": 1.31319399085565,
+      "saree": 1.0444155844155845,
+      "kurta": 1.3612051455653351,
+      "blouse_choli": 1.4881569207994079,
+      "skirt": 1.6071143085531576,
+      "shorts": 1.6345528455284553,
+      "sherwani": 1.2410493827160494,
+      "suit_salwar": 1.8260672116257948,
+      "lehenga": 5.0,
+      "palazzo": 5.0,
+      "dhoti": 5.0,
+      "jumpsuit": 5.0,
+      "co_ord_set": 5.0
+    },
+    "color_primary": {
+      "blue": 0.3560691594164398,
+      "black": 0.5072216966256702,
+      "white": 0.6262508273955535,
+      "red": 0.6450629662308495,
+      "green": 0.7746845197957807,
+      "pink": 0.9951122935098681,
+      "grey": 0.9740204687216133,
+      "beige": 1.6613986158454705,
+      "brown": 1.7553203099421586,
+      "yellow": 1.9324762705755136,
+      "orange": 5.0,
+      "purple": 2.100287281274484,
+      "multicolor": 2.647136273864384,
+      "unknown": 5.0
+    },
+    "pattern": {
+      "solid": 0.28959308606409795,
+      "printed": 1.414599824098505,
+      "striped": 3.6700513405590423,
+      "checked": 4.087420584498094,
+      "embroidered": 3.097544535387578
+    },
+    "sub_class": {
+      "top": 0.31848697394789577,
+      "jacket": 0.4837899543378995,
+      "blazer": 0.6269230769230769,
+      "sweatshirt": 0.7838471023427867,
+      "sweater": 2.294945848375451,
+      "overcoat": 1.585286783042394,
+      "3-pcs_suit": 1.1882242990654206,
+      "hoodie": 5.0,
+      "windbreaker": 5.0,
+      "biker": 5.0
+    }
+  }
+}
