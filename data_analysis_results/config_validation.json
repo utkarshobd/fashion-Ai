@@ -11,15 +11,15 @@
     "config_classes": 16,
     "missing_in_config": [
       "trouser_chinos",
-      "lehengas",
       "suitsalwar",
+      "lehengas",
       "jeans"
     ],
     "missing_in_data": [
       "dhoti",
+      "palazzo",
       "co_ord_set",
-      "jumpsuit",
-      "palazzo"
+      "jumpsuit"
     ],
     "match": false
   },
