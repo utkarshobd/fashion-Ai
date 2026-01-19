@@ -86,3 +86,6 @@ logs/
 tmp/
 temp/
 *.tmp
+
+# Training system - NEVER COMMIT
+training_system/
