@@ -10,15 +10,15 @@
     "actual_classes": 16,
     "config_classes": 16,
     "missing_in_config": [
-      "trouser_chinos",
-      "suitsalwar",
       "lehengas",
-      "jeans"
+      "suitsalwar",
+      "jeans",
+      "trouser_chinos"
     ],
     "missing_in_data": [
       "dhoti",
-      "palazzo",
       "co_ord_set",
+      "palazzo",
       "jumpsuit"
     ],
     "match": false
