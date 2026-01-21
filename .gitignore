@@ -91,9 +91,9 @@ temp/
 training_system/
 
 # DO NOT PUSH fashion_AI_Training_Strucuture.md
-fashion_AI_Training_Strucuture.md/
+
 manual_testing_images/
 training_system_512/
 evaluation_results/
 colab_test/
-fashion_AI_Training_Strucuture.md
+Fashion_AI_Structure.md
