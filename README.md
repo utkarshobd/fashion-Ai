@@ -1,10 +1,11 @@
 # Fashion AI Project Overview
 
 This document explains the complete architecture of the Fashion AI project and how its components interact. It is designed to help you understand the structure, technology choices, and the workflow from data to final recommendation.
+# This repository contains partial code only. The full codebase and raw dataset are not included here to protect execution rights and intellectual property, as they are available for purchase.  
 
 ---
 
-## 🎯 Project Goal
+## 🎯 Project Problem Statement 
 
 The system aims to:
 
